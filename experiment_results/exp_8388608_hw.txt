@@ -1,0 +1,21 @@
+Set seed to 1734664611597648 because --seed was 0
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+Integrated BlobDB: blob cache disabled
+Keys:       48 bytes each (+ 0 bytes user-defined timestamp)
+Values:     100 bytes each (50 bytes after compression)
+Entries:    5000000
+Prefix:    0 bytes
+Keys per prefix:    0
+RawSize:    705.7 MB (estimated)
+FileSize:   467.3 MB (estimated)
+Write rate: 0 bytes/second
+Read rate: 0 ops/second
+Compression: com.intel.iaa_compressor_rocksdb
+Compression sampling rate: 0
+Memtablerep: SkipListFactory
+Perf Level: 1
+------------------------------------------------
+DB path: [./db]
+mixgraph     :      21.157 micros/op 47265 ops/sec 888.605 seconds 42000000 operations;   42.5 MB/s ( Gets:35693814 Puts:5885903 Seek:420283, reads 22846561 in 36114097 found, avg size: 36.3 value, 562.9 scan)
+
